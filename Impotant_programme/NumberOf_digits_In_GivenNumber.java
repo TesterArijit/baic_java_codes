@@ -17,7 +17,7 @@ public class NumberOf_digits_In_GivenNumber {
 			count++;
 			a=a/10;
 		}
-		System.out.println("The numbrer of dights in "+Original+" is >"+count);
+		System.out.println("The numbrer of digits in "+Original+" is > "+count);
 		s.close();
 				
 	}

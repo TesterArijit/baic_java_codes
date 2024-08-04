@@ -19,7 +19,7 @@ public class Average_Array1 {
 		sum=sum+a[i]; 
 	}
 	average=sum/4;
-	System.out.println(average);
+	System.out.println("The average value of the given array is : >"+average);
 	
 	
 

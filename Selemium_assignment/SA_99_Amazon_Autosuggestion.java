@@ -15,7 +15,7 @@ public class SA_99_Amazon_Autosuggestion {
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize(); // to maximize the window
 		Thread.sleep(2000);
-	WebElement e =driver.findElement(By.xpath("//div[@class='nav-fill']/div/input"));
+	WebElement e =driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
 	           e.sendKeys("shoe");
 	           Thread.sleep(2000);
 	List<WebElement> e1 =driver.findElements(By.xpath("//div[@class='two-pane-results-container']/div/div"));

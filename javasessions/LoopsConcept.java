@@ -5,7 +5,6 @@ public class LoopsConcept {
 	public static void main(String[] args) {
 		//1. while:
 				//1 to 10:
-				
 				int i = 1;
 				while(i<=10) {
 					System.out.println(i);//1234567..9
@@ -13,6 +12,19 @@ public class LoopsConcept {
 					//++i;
 					//i=i+1;
 				}
+				
+				System.out.println("-------------");
+				//10 to 1:
+				int e = 10;
+				while(e>=-10) {
+					System.out.println(e);
+					e--;
+				}
+				
+				System.out.println("-------------");
+
+				
+				
 				
 				//
 				while(true) {
@@ -137,6 +149,31 @@ public class LoopsConcept {
 					System.out.println(ch);
 				}
 				
+				System.out.println("-------------");
+
+				//10 to 1:
+				for(int u=10; u>=1; u--) {
+					System.out.println(u);//10987654321
+				}
+				
+				
+				System.out.println("-------------");
+
+				//3. do-while loop:
+				int x=1;
+				do {
+					System.out.println(x);//1234
+					x++;//5
+					if(x==5) {
+						System.out.println("Done!! bye");
+						break;
+					}
+				}
+				while(x<=10);//T
+						
+				System.out.println("-------------");
+
+				
 				//use cases for while loop:
 				//when number of iterations are not fixed
 				//infinite scrolling
@@ -148,11 +185,11 @@ public class LoopsConcept {
 				
 				//use cases for for loop:
 				//when number of iterations are fixed
-				//with array, arraylist
+				//with array, arraylist, index based collection, data structure
 				//month drop/ day drop
 				//menu sub menu handing
 				//footers
-
+				
 	}
 
 }
